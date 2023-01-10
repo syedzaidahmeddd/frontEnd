@@ -1,0 +1,18 @@
+Tim Berners-lee While working at cern.
+Invented the www in 1989.
+
+first webpage:1991
+http://info.cern.ch
+
+first website
+By default, Links will appear as blue in all browsers
+A visited link is underlinked and purple
+
+HTML(hypertext markup language) is the code that is used to
+structure a webpage and its content.
+
+The standard markup language is the code that is used to structure
+a webpage and its content.
+HTML elements tell the browser how to display the content.
+hypertext means that the document contains links that allow the reader
+to jump to other places in the document or to another 

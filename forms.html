@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- The HTML <form> is used to create an HTML form for user input -->
+    <!--  text fields , checkboxes, radio buttons,  submit etc -->
+
+    <!-- the label tag <label> defines a label for many form elements -->
+    <!-- the label tag is useful for screen reader users, -->
+    <!-- because the screen readers will read out loud the label when the users focus on the input -->
+    <!-- an input tag element can be displayed in many ways, depending on the type attribute -->
+    <!-- notice that each input field must have a name attribute to be submitted -->
+    <!-- if name attribute is once given it will not be sent at all  -->
+
+    <form>
+        <h2>Text input field</h2>
+        <label for="fname">Enter your name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="birthday">Enter your Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="email">Enter Your Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="quantity">Enter your Phone Number:</label>
+        <input type="number" id="quantity" name="quantity"><br>
+        <br>
+        <hr>
+        <h2>Radio Buttons</h2>
+        <p>Choose your favourite Web language</p>
+        <input type="radio" id="html" name="Fav_language" value="HTML">
+        <label for="html">HTML</label> <br>
+        <input type="radio" id="html" name="Fav_language" value="CSS">
+        <label for="CSS">CSS</label> <br>
+        <input type="radio" id="html" name="Fav_language" value="JavaScript">
+        <label for="JavaScript">JavaScript</label> <br>
+        <hr>
+
+        <h2>Checkboxes</h2>
+        <p> What is your age?</p>
+        <input type="checkbox" name="age" value="18-21" /> 18-21<br>
+        <input type="checkbox" name="age" value="22-25" /> 22-25<br>
+        <hr>
+
+        <h2> The Button Element</h2>
+        <button type="button" onclick="alert('Hey Click')">Click Me!</button> <br> <hr>
+
+        <label for="cars">Choose a Car</label>
+        <select id="cars" name ="cars">
+        <option value="Volvo">Volvo</option>
+        <option value="Audi">Audi</option>
+        <option value="Jeep">Jeep</option> </select>
+        <br>
+
+    </form>
+</body>
+
+</html>
