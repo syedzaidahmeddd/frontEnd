@@ -1,0 +1,5 @@
+.bg-gradiant{
+    height: 500vh;
+    width: 500%;
+    background-image: linear-gradient(green,red);
+}
